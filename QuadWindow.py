@@ -12,6 +12,7 @@ class QuadWindow(arcade.Window):
         self.height = h
         self.width = w
                     
+                    
     def setup(self, w, h):
         self.qaudtree = Quadtree(w/2, h/2, w, h)
         arcade.set_background_color(arcade.color.OCEAN_BOAT_BLUE)
@@ -32,7 +33,6 @@ class QuadWindow(arcade.Window):
         # show command line
         arcade.draw_text(self.command_text, 10, self.height-20, arcade.color.WHITE)
        
-
 
     def on_mouse_press(self, x, y, button, modifiers):
         print("Mouse pressed on ", x, y, self.qaudtree.insert( QuadEntry(x, y, rd.randint(0, 50))))
