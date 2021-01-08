@@ -1,5 +1,5 @@
 import arcade
-from QuadtreeEntry import QuadEntry
+from .QuadtreeEntry import QuadEntry
 
 class Quadtree():
 
