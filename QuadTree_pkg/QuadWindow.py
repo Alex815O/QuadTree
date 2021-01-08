@@ -64,7 +64,6 @@ class QuadWindow(arcade.Window):
                 print(value, ">>", self.qaudtree.search(int(value)))
             
             elif command[:3] == "pop":
-                print(command)
                 _, cx, cy = command.split(" ")
                 cx, cy = int(cx), int(cy)
                 print(self.qaudtree.delete(cx, cy))
