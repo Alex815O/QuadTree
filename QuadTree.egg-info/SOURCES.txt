@@ -1,0 +1,6 @@
+README.md
+setup.py
+QuadTree.egg-info/PKG-INFO
+QuadTree.egg-info/SOURCES.txt
+QuadTree.egg-info/dependency_links.txt
+QuadTree.egg-info/top_level.txt

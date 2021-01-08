@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: QuadTree
+Version: 0.0.1
+Summary: An implementation of a quadtree
+Home-page: https://github.com/Alex815O/QuadTree
+Author: Alex Ofner
+Author-email: alexofner01@gmail.com
+License: UNKNOWN
+Description: # QuadTree
+        
+        In this project I developed an simple QuadTree in Python.
+        
+        If you executes QuadWindow.py a window will pop up which visualize the datastructure. 
+        I inmplementet a tiny command line too. Just enter some of the following commands and press enter. 
+        
+        	- get x y
+        	returns the value which is stored at those coordinates
+        	
+        	- search value
+        	returns the coordinates of this value (only numbers)
+        
+        	- pop x y
+        	removes the value at those coordinates
+        	
+        	- len
+        	returns the number of entries
+        	
+        (Please note that I created this small command line for testing purposes only) 
+        
+          
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
